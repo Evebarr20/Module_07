@@ -44,11 +44,29 @@ print(calc.hypotenuse(A, B)[0,0])
 # the calculator file (multiply, sqrt, add)
 
 #multiply
+calc.multiply(A, B)
+"""The total time is 116.97 ms to run multipy function"""
 #sqrt
+calc.sqrt(A)
+"""The total time is 136.78 ms to run the square function"""
 #add
+calc.add(A, B)
+"""The total time is 117.34 ms to run the add function"""
 
 
 # Now go back to line 17 above and change the import statement
 # to load the more efficient file calculator2 as calc
 
 # look at calculator2
+#multiply
+calc.multiply(A, B)
+"""The total time is 116.39 ms to run the multiply function"""
+#sqrt
+calc.sqrt(A)
+"""The total time is 137.05 ms to run the square function"""
+#add
+calc.add(A, B)
+"""The total time is 165.79 microseconds to run the add function"""
+
+"""The add function improved dramatically, 
+dropping from milliseconds to microseconds due to optimized implementation"""
