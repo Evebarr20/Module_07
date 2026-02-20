@@ -7,7 +7,7 @@ Created on Tue Jul 29 10:59:28 2025
 
 import numpy as np
 
-import my_summer as summer
+import evelyn_summer as summer
 
 #set the matrix sizes
 
